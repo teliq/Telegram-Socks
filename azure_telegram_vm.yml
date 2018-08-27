@@ -41,7 +41,7 @@
           direction: Inbound
         - name: SOCKS
           protocol: Tcp
-          destination_port_range: 1080
+          destination_port_range: 38157
           access: Allow
           priority: 1010
           direction: Inbound
