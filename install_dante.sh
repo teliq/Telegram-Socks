@@ -17,7 +17,7 @@ user.privileged:   root
 # otherwise run as this user
 user.unprivileged: nobody
 # auth with user login, passwd
-socksmethod:       username
+socksmethod:       none
 # log to this file
 # logoutput:         /var/log/sockd.log
 
