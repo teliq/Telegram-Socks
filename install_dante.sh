@@ -25,7 +25,7 @@ socksmethod:       none
 client pass {
     from: 0.0.0.0/0 to: 0.0.0.0/0
     log: error # connect disconnect iooperation
-    socksmethod: username
+    socksmethod: none
 }
 
 # allow everyone from everywhere so long as they auth, log errors
@@ -33,7 +33,7 @@ socks pass {
     from: 0.0.0.0/0 to: 0.0.0.0/0
     command: bind connect udpassociate
     log: error # connect disconnect iooperation
-    socksmethod: username
+    socksmethod: none
 }
 
 # generic pass statement for incoming connections/packets
