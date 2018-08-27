@@ -4,7 +4,7 @@
   vars:
     resource_group: Telegram-Socks-RG
     vm_name: tlg-socks
-    location: westeurope
+    location: westus
     admin_username: telegram
     admin_password: 2qJxxImL0UgdAxPvfnyB
   tasks:
