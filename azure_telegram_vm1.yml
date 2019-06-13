@@ -4,7 +4,7 @@
   vars:
     resource_group: Telegram-Socks-RG
     vm_name: tlg-socks
-    location: westeurope
+    location: northeurope
     admin_username: seo1488
     admin_password: 8Fdga9fsSL0UgdAxPvfnyB
   tasks:
