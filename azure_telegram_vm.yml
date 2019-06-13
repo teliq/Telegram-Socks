@@ -2,11 +2,11 @@
   hosts: localhost
   connection: local
   vars:
-    resource_group: Telegram-Socks-RG
-    vm_name: tlg-socks
-    location: eastus2
-    admin_username: telegram
-    admin_password: 2qJxxImL0UgdAxPvfnyB
+    resource_group: Telegram-Socks
+    vm_name: tlg-socks2
+    location: northeurope
+    admin_username: involta
+    admin_password: hD3isSsaxIsf&Gdsa8HdsdW32B
   tasks:
   - name: Create a resource group
     azure_rm_resourcegroup:
