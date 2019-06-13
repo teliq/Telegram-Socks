@@ -5,7 +5,7 @@
     resource_group: Telegram-Socks
     vm_name: tlg-socks2
     location: northeurope
-    admin_username: involta
+    admin_username: seo
     admin_password: hD3isSsaxIsf&Gdsa8HdsdW32B
   tasks:
   - name: Create a resource group
